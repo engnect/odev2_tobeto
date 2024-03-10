@@ -83,4 +83,6 @@ void main() {
 
   student1.getAllCourses();
   student2.getAllCourses();
+
+  Instructor.getInstructorInfo(instructor2);
 }

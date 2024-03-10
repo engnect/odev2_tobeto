@@ -10,4 +10,9 @@ class Instructor extends User {
       required super.password,
       required super.userType,
       required this.phoneNumber}) {}
+
+  static void getInstructorInfo(Instructor instructor) {
+    print(
+        "Eğitmen adı: ${instructor.firstName} ${instructor.lastName} \nEğitmen email: ${instructor.email}");
+  }
 }
